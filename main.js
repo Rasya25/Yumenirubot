@@ -15,7 +15,7 @@ const PhoneNumber = require("awesome-phonenumber");
 const fetch = require('node-fetch')
 const FileType = require('file-type')
 const readline = require("readline");
-const { smsg, imageToWebp, videoToWebp, writeExifImg, writeExifVid, writeExif, toPTT, toAudio, toVideo } = require("./lib/library.js")
+const { smsg, imageToWebp, videoToWebp, writeExifImg, writeExifVid, writeExif, toPTT, toAudio, toVideo } = require("./lib/lib.js")
 
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 const question = (text) => { const rl = readline.createInterface({ input: process.stdin, output: process.stdout }); return new Promise((resolve) => { rl.question(text, resolve) }) };
