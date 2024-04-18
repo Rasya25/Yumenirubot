@@ -68,7 +68,11 @@ module.exports = async (client, m) => {
 
         switch (command) {
             case "menu":
-                m.reply("Base by choco")
+                m.reply("> menu\n> sc\n\nbase by chocozyy")
+                break;
+            case "sourcecode":
+            case "sc":
+                m.reply("https://github.com/Rasya25/Yumenirubot")
                 break;
         }
     } catch (err) {
