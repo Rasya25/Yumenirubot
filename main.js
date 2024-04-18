@@ -49,7 +49,7 @@ async function start() {
             if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
             if (mek.key.id.startsWith("BAE5") && mek.key.id.length === 16) return;
             m = smsg(client, mek, store);
-            require("./command.js")(client, m, chatUpdate, store);
+            require("./message.js")(client, m, chatUpdate, store);
         } catch (err) {
             console.log(err);
         }
