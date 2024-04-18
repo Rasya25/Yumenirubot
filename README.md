@@ -1,6 +1,7 @@
 # Yumeniru-Md
 
 Base Bot WhatsApp (Case)
+by choco
 
 
 ## Run Locally
@@ -40,11 +41,10 @@ Start the server
 ## Features
 
 - Menu
+- sc
 
 
 ## Thanks to
-
-This project is used by the following companies:
 
 - My God
 - My Parent
